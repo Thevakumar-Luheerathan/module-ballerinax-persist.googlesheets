@@ -5,7 +5,7 @@
 
 [ballerina]
 dependencies-toml-version = "2"
-distribution-version = "2201.6.0"
+distribution-version = "2201.6.0-SNAPSHOT"
 
 [[package]]
 org = "ballerina"
@@ -295,13 +295,14 @@ dependencies = [
 	{org = "ballerina", name = "lang.error"}
 ]
 modules = [
-	{org = "ballerina", packageName = "test", moduleName = "test"}
+	{org = "ballerina", packageName = "test", moduleName = "test"},
+	{org = "ballerina", packageName = "test", moduleName = "test.test"}
 ]
 
 [[package]]
 org = "ballerina"
 name = "time"
-version = "2.2.4"
+version = "2.2.5"
 dependencies = [
 	{org = "ballerina", name = "jballerina.java"}
 ]
@@ -312,7 +313,7 @@ modules = [
 [[package]]
 org = "ballerina"
 name = "url"
-version = "2.2.3"
+version = "2.2.4"
 dependencies = [
 	{org = "ballerina", name = "jballerina.java"}
 ]
@@ -351,7 +352,7 @@ modules = [
 [[package]]
 org = "ballerinax"
 name = "persist.googlesheets"
-version = "1.0.0"
+version = "1.0.1"
 dependencies = [
 	{org = "ballerina", name = "http"},
 	{org = "ballerina", name = "jballerina.java"},
